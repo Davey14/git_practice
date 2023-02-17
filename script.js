@@ -8,7 +8,7 @@ const frasi = ['Abbiamo quaranta milioni di ragioni per fallire, ma non una sola
 
 const fraseDelGiorno = () => {
     const randomNumber = Math.floor(Math.random() * frasi.length)
-    document.getElementsById("frase").innerHTML = frasi[randomNumber]
+    document.getElementById("frase").innerHTML = frasi[randomNumber]
 }
 
 fraseDelGiorno();
