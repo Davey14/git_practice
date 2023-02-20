@@ -13,5 +13,6 @@ const fraseDelGiorno = () => {
 }
 
 fraseDelGiorno();
+const element = document.getElementById("btn-refresh");
+element.addEventListener("click", fraseDelGiorno);
 
-document.getElementById("btn-refresh").onclick = fraseDelGiorno()
